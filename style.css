@@ -1,0 +1,68 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .left {
+    display: flex;
+}
+header .left h1 {
+    margin:0;
+}
+header img {
+    margin-right:10px;
+}
+
+nav {
+    width: 29%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin: 2px;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+}
+
+main .empleados {
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+main .empleados div {
+    box-shadow: 0px 3px 3px gray;
+    padding: 10px;
+}
+
+main form {
+    border: 1px solid gray;
+    padding: 25px;
+    margin:50px;
+    width:50%;
+    text-align: center;
+}
+
+main form .field {
+    display:flex;
+    justify-content: space-between;
+}
+
+main form #enviar-formulario {
+    margin-top: 20px;
+    background:red;
+}
